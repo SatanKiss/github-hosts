@@ -71,7 +71,7 @@
 140.82.112.18                 github.community
 20.43.185.14                  github.dev
 185.199.108.215               github.githubassets.com
-202.160.130.118               github.global.ssl.fastly.net  # timeout
+# timeout                     github.global.ssl.fastly.net
 185.199.111.153               github.io
 185.199.108.133               github.map.fastly.net
 140.82.113.29                 githubapp.com

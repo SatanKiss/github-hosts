@@ -146,9 +146,24 @@ def resolve_best_ip(domain: str, session: requests.Session) -> ResolveResult:
     if not unique_ips:
         return ResolveResult(domain=domain, ip=None, latency_ms=None, source="none", candidates=[])
 
+    timeout_ms = PING_TIMEOUT_SEC * 1000
     scored: list[tuple[float, str]] = [(tcp_latency_ms(ip), ip) for ip in unique_ips]
     scored.sort(key=lambda x: x[0])
-    best_latency, best_ip = scored[0]
+
+    # Prefer reachable candidates. Writing an unreachable IP into hosts causes
+    # browsers/tools to hang on TCP connect, which is worse than leaving the
+    # domain to system DNS. If every candidate times out, mark as unresolved.
+    reachable = [(lat, ip) for lat, ip in scored if lat < timeout_ms]
+    if not reachable:
+        return ResolveResult(
+            domain=domain,
+            ip=None,
+            latency_ms=None,
+            source="timeout",
+            candidates=unique_ips,
+        )
+
+    best_latency, best_ip = reachable[0]
 
     # Determine a representative source for the chosen IP.
     source = "mixed"
@@ -157,14 +172,10 @@ def resolve_best_ip(domain: str, session: requests.Session) -> ResolveResult:
             source = src
             break
 
-    # Mark timeouts (all probes failed) as None-latency for display purposes.
-    timeout_ms = PING_TIMEOUT_SEC * 1000
-    effective_latency: float | None = None if best_latency >= timeout_ms else round(best_latency, 2)
-
     return ResolveResult(
         domain=domain,
         ip=best_ip,
-        latency_ms=effective_latency,
+        latency_ms=round(best_latency, 2),
         source=source,
         candidates=unique_ips,
     )

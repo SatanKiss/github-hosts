@@ -1,7 +1,7 @@
 {
   "update_time": "2026-11-07T11:59:32+08:00",
-  "update_url": "https://raw.githubusercontent.com/<OWNER>/<REPO>/main/hosts",
-  "project": "https://github.com/<OWNER>/<REPO>",
+  "update_url": "https://raw.githubusercontent.com/SatanKiss/github-hosts/main/hosts",
+  "project": "https://github.com/SatanKiss/github-hosts",
   "entries": [
     {
       "ip": null,
@@ -515,10 +515,10 @@
       ]
     },
     {
-      "ip": "202.160.130.118",
+      "ip": null,
       "domain": "github.global.ssl.fastly.net",
       "latency_ms": null,
-      "source": "doh:alidns",
+      "source": "timeout",
       "candidates": [
         "202.160.130.118",
         "103.226.246.99"

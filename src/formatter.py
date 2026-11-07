@@ -30,12 +30,10 @@ def format_hosts_block(results: Iterable[ResolveResult], update_time: str) -> st
     lines: list[str] = [START_MARK, ""]
     for r in results:
         if r.ip:
-            comment = ""
-            if r.latency_ms is None:
-                comment = "  # timeout"
-            lines.append(f"{r.ip.ljust(30)}{r.domain}{comment}")
+            lines.append(f"{r.ip.ljust(30)}{r.domain}")
         else:
-            lines.append(f"{'# unresolved'.ljust(30)}{r.domain}")
+            reason = "timeout" if r.source == "timeout" else "unresolved"
+            lines.append(f"{f'# {reason}'.ljust(30)}{r.domain}")
     lines.extend(
         [
             "",
