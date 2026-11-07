@@ -1,8 +1,8 @@
-# github-host
+# github-hosts
 
 合并 [GitHub520](https://github.com/521xueweihan/GitHub520) 与 [ineo6/hosts](https://github.com/ineo6/hosts) 思路的 GitHub Hosts 加速项目，目标是**尽可能覆盖 GitHub 相关访问**，并支持通过 **URL 方式直接引入 hosts**。
 
-> 数据自动更新（GitHub Actions）。最近更新时间：**2026-11-07T11:59:32+08:00**
+> 数据可由 GitHub Actions 自动更新。示例更新时间：**2026-11-07T11:59:32+08:00**
 
 ## 一、通过 URL 引入（推荐）
 
@@ -10,23 +10,21 @@
 
 | 用途 | URL |
 |---|---|
-| Hosts 文本（主地址） | `https://raw.githubusercontent.com/<OWNER>/<REPO>/main/hosts` |
-| JSON 数据 | `https://raw.githubusercontent.com/<OWNER>/<REPO>/main/hosts.json` |
-| jsDelivr CDN（发布后可用） | `https://cdn.jsdelivr.net/gh/<OWNER>/<REPO>@main/hosts` |
-| jsDelivr JSON | `https://cdn.jsdelivr.net/gh/<OWNER>/<REPO>@main/hosts.json` |
-
-> 发布仓库后，请将 `<OWNER>/<REPO>` 替换为你的仓库路径（例如 `yourname/github-host`），并同步更新 `src/formatter.py` 中的地址常量。
+| Hosts 文本（主地址） | `https://raw.githubusercontent.com/SatanKiss/github-hosts/main/hosts` |
+| JSON 数据 | `https://raw.githubusercontent.com/SatanKiss/github-hosts/main/hosts.json` |
+| jsDelivr CDN | `https://cdn.jsdelivr.net/gh/SatanKiss/github-hosts@main/hosts` |
+| jsDelivr JSON | `https://cdn.jsdelivr.net/gh/SatanKiss/github-hosts@main/hosts.json` |
 
 ### SwitchHosts 配置示例
 
 - 类型：`Remote`
-- 标题：`github-host`
-- URL：`https://raw.githubusercontent.com/<OWNER>/<REPO>/main/hosts`（或 jsDelivr 地址）
+- 标题：`github-hosts`
+- URL：`https://raw.githubusercontent.com/SatanKiss/github-hosts/main/hosts`（或 jsDelivr 地址）
 - 自动刷新：`1 小时`
 
 ### AdGuard Home / AdGuard DNS 规则
 
-在支持 hosts 列表订阅的位置添加：`https://raw.githubusercontent.com/<OWNER>/<REPO>/main/hosts`（具体入口因版本不同而异）。
+在支持 hosts 列表订阅的位置添加：`https://raw.githubusercontent.com/SatanKiss/github-hosts/main/hosts`（具体入口因版本不同而异）。
 
 ## 二、手动方式
 
@@ -102,8 +100,8 @@
 150.171.110.106               vscode.dev
 
 # Update time: 2026-11-07T11:59:32+08:00
-# Update url: https://raw.githubusercontent.com/<OWNER>/<REPO>/main/hosts
-# Star: https://github.com/<OWNER>/<REPO>
+# Update url: https://raw.githubusercontent.com/SatanKiss/github-hosts/main/hosts
+# Star: https://github.com/SatanKiss/github-hosts
 # GitHub Host End
 ```
 
@@ -151,4 +149,4 @@ python -m src.main
 
 ## Star
 
-如果有帮助，欢迎 Star：https://github.com/<OWNER>/<REPO>
+如果有帮助，欢迎 Star：https://github.com/SatanKiss/github-hosts
