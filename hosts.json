@@ -1,0 +1,806 @@
+{
+  "update_time": "2026-11-07T11:59:32+08:00",
+  "update_url": "https://raw.githubusercontent.com/<OWNER>/<REPO>/main/hosts",
+  "project": "https://github.com/<OWNER>/<REPO>",
+  "entries": [
+    {
+      "ip": null,
+      "domain": "actions.githubusercontent.com",
+      "latency_ms": null,
+      "source": "none",
+      "candidates": []
+    },
+    {
+      "ip": "140.82.112.26",
+      "domain": "alive.github.com",
+      "latency_ms": 276.57,
+      "source": "doh:alidns",
+      "candidates": [
+        "140.82.112.26",
+        "140.82.113.26",
+        "140.82.114.25"
+      ]
+    },
+    {
+      "ip": "20.205.243.168",
+      "domain": "api.github.com",
+      "latency_ms": 89.28,
+      "source": "doh:alidns",
+      "candidates": [
+        "20.205.243.168"
+      ]
+    },
+    {
+      "ip": "140.82.114.22",
+      "domain": "api.githubcopilot.com",
+      "latency_ms": 237.18,
+      "source": "doh:alidns",
+      "candidates": [
+        "140.82.114.22",
+        "140.82.113.21",
+        "140.82.114.21"
+      ]
+    },
+    {
+      "ip": "140.82.114.22",
+      "domain": "api.individual.githubcopilot.com",
+      "latency_ms": 237.18,
+      "source": "doh:alidns",
+      "candidates": [
+        "140.82.114.22",
+        "140.82.114.21",
+        "140.82.112.22"
+      ]
+    },
+    {
+      "ip": null,
+      "domain": "assets-cdn.github.com",
+      "latency_ms": null,
+      "source": "none",
+      "candidates": []
+    },
+    {
+      "ip": "185.199.108.133",
+      "domain": "avatars.githubusercontent.com",
+      "latency_ms": 170.94,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.109.133",
+        "185.199.111.133",
+        "185.199.110.133",
+        "185.199.108.133"
+      ]
+    },
+    {
+      "ip": "185.199.108.133",
+      "domain": "avatars0.githubusercontent.com",
+      "latency_ms": 170.94,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.110.133",
+        "185.199.109.133",
+        "185.199.108.133",
+        "185.199.111.133"
+      ]
+    },
+    {
+      "ip": "185.199.108.133",
+      "domain": "avatars1.githubusercontent.com",
+      "latency_ms": 170.94,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.108.133",
+        "185.199.110.133",
+        "185.199.109.133",
+        "185.199.111.133"
+      ]
+    },
+    {
+      "ip": "185.199.108.133",
+      "domain": "avatars2.githubusercontent.com",
+      "latency_ms": 170.94,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.109.133",
+        "185.199.110.133",
+        "185.199.111.133",
+        "185.199.108.133"
+      ]
+    },
+    {
+      "ip": "185.199.108.133",
+      "domain": "avatars3.githubusercontent.com",
+      "latency_ms": 170.94,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.109.133",
+        "185.199.108.133",
+        "185.199.111.133",
+        "185.199.110.133"
+      ]
+    },
+    {
+      "ip": "185.199.108.133",
+      "domain": "avatars4.githubusercontent.com",
+      "latency_ms": 170.94,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.110.133",
+        "185.199.111.133",
+        "185.199.108.133",
+        "185.199.109.133"
+      ]
+    },
+    {
+      "ip": "185.199.108.133",
+      "domain": "avatars5.githubusercontent.com",
+      "latency_ms": 170.94,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.111.133",
+        "185.199.110.133",
+        "185.199.108.133",
+        "185.199.109.133"
+      ]
+    },
+    {
+      "ip": "185.199.108.133",
+      "domain": "camo.githubusercontent.com",
+      "latency_ms": 170.94,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.110.133",
+        "185.199.111.133",
+        "185.199.109.133",
+        "185.199.108.133"
+      ]
+    },
+    {
+      "ip": "140.82.112.21",
+      "domain": "central.github.com",
+      "latency_ms": 244.08,
+      "source": "doh:alidns",
+      "candidates": [
+        "140.82.112.21",
+        "140.82.114.21",
+        "140.82.112.22"
+      ]
+    },
+    {
+      "ip": "185.199.108.133",
+      "domain": "cloud.githubusercontent.com",
+      "latency_ms": 170.94,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.111.133",
+        "185.199.108.133",
+        "185.199.110.133",
+        "185.199.109.133"
+      ]
+    },
+    {
+      "ip": "20.205.243.165",
+      "domain": "codeload.github.com",
+      "latency_ms": 92.52,
+      "source": "doh:alidns",
+      "candidates": [
+        "20.205.243.165"
+      ]
+    },
+    {
+      "ip": "140.82.113.21",
+      "domain": "collector.github.com",
+      "latency_ms": 237.25,
+      "source": "doh:alidns",
+      "candidates": [
+        "140.82.113.21",
+        "140.82.114.21"
+      ]
+    },
+    {
+      "ip": "140.82.113.21",
+      "domain": "collector.githubapp.com",
+      "latency_ms": 237.25,
+      "source": "doh:alidns",
+      "candidates": [
+        "140.82.113.21",
+        "140.82.114.21"
+      ]
+    },
+    {
+      "ip": "4.249.131.160",
+      "domain": "copilot-proxy.githubusercontent.com",
+      "latency_ms": 233.67,
+      "source": "doh:alidns",
+      "candidates": [
+        "4.249.131.160"
+      ]
+    },
+    {
+      "ip": "185.199.108.133",
+      "domain": "copilot.githubusercontent.com",
+      "latency_ms": 170.94,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.110.133",
+        "185.199.111.133",
+        "185.199.108.133",
+        "185.199.109.133"
+      ]
+    },
+    {
+      "ip": "13.107.5.93",
+      "domain": "default.exp-tas.com",
+      "latency_ms": 57.96,
+      "source": "doh:alidns",
+      "candidates": [
+        "13.107.5.93"
+      ]
+    },
+    {
+      "ip": "185.199.108.133",
+      "domain": "desktop.githubusercontent.com",
+      "latency_ms": 170.94,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.110.133",
+        "185.199.111.133",
+        "185.199.109.133",
+        "185.199.108.133"
+      ]
+    },
+    {
+      "ip": "185.199.109.154",
+      "domain": "docs.github.com",
+      "latency_ms": 189.91,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.108.154",
+        "185.199.110.154",
+        "185.199.111.154",
+        "185.199.109.154"
+      ]
+    },
+    {
+      "ip": "140.82.113.21",
+      "domain": "education.github.com",
+      "latency_ms": 237.25,
+      "source": "dns:udp",
+      "candidates": [
+        "140.82.112.21",
+        "140.82.113.21"
+      ]
+    },
+    {
+      "ip": "185.199.108.133",
+      "domain": "favicons.githubusercontent.com",
+      "latency_ms": 170.94,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.111.133",
+        "185.199.109.133",
+        "185.199.108.133",
+        "185.199.110.133"
+      ]
+    },
+    {
+      "ip": "20.205.243.164",
+      "domain": "ghcr.io",
+      "latency_ms": 110.7,
+      "source": "doh:alidns",
+      "candidates": [
+        "20.205.243.164",
+        "140.82.112.33"
+      ]
+    },
+    {
+      "ip": "20.205.243.166",
+      "domain": "gist.github.com",
+      "latency_ms": 92.5,
+      "source": "doh:dnspod",
+      "candidates": [
+        "8.7.198.45",
+        "20.205.243.166",
+        "243.185.187.39"
+      ]
+    },
+    {
+      "ip": "52.216.32.138",
+      "domain": "github-cloud.s3.amazonaws.com",
+      "latency_ms": 220.99,
+      "source": "doh:alidns",
+      "candidates": [
+        "54.231.230.146",
+        "16.15.160.84",
+        "16.15.245.24",
+        "52.216.38.2",
+        "16.15.157.45",
+        "52.216.32.138",
+        "16.15.161.177",
+        "16.182.33.130",
+        "16.15.207.103",
+        "16.15.161.166",
+        "16.15.229.155",
+        "52.217.200.202",
+        "16.15.156.220",
+        "16.15.162.244",
+        "52.216.50.26",
+        "52.217.75.202",
+        "16.15.183.0",
+        "16.182.69.146",
+        "16.15.161.141",
+        "54.231.226.162",
+        "52.217.128.34",
+        "54.231.138.2",
+        "16.15.247.180",
+        "16.15.183.148"
+      ]
+    },
+    {
+      "ip": "16.182.66.122",
+      "domain": "github-com.s3.amazonaws.com",
+      "latency_ms": 220.65,
+      "source": "doh:dnspod",
+      "candidates": [
+        "52.217.134.194",
+        "52.217.36.176",
+        "16.15.252.223",
+        "54.231.137.58",
+        "16.15.236.244",
+        "16.15.212.25",
+        "52.217.164.50",
+        "52.217.137.122",
+        "16.182.66.122",
+        "54.231.225.122",
+        "16.15.236.18",
+        "52.217.78.168",
+        "52.217.194.98",
+        "16.15.255.123",
+        "52.216.213.234",
+        "16.15.245.39",
+        "54.231.229.50",
+        "16.15.237.228",
+        "16.15.183.116",
+        "52.216.32.202",
+        "16.15.161.169",
+        "52.217.78.56",
+        "16.15.212.193",
+        "52.217.232.114"
+      ]
+    },
+    {
+      "ip": "52.217.226.226",
+      "domain": "github-production-release-asset-2e65be.s3.amazonaws.com",
+      "latency_ms": 221.07,
+      "source": "doh:alidns",
+      "candidates": [
+        "16.15.164.8",
+        "54.231.160.18",
+        "16.15.245.1",
+        "52.217.226.226",
+        "16.15.165.101",
+        "16.15.212.23",
+        "16.15.236.59",
+        "16.15.253.223",
+        "52.216.43.10",
+        "16.15.167.115",
+        "16.15.237.87",
+        "54.231.137.170",
+        "52.216.208.194",
+        "16.15.237.137",
+        "52.217.198.42",
+        "52.216.42.154",
+        "52.216.218.186",
+        "52.217.135.42",
+        "54.231.140.90",
+        "54.231.199.10",
+        "16.15.163.222",
+        "16.15.213.27",
+        "16.15.237.209",
+        "16.182.107.138"
+      ]
+    },
+    {
+      "ip": "54.231.129.130",
+      "domain": "github-production-repository-file-5c1aeb.s3.amazonaws.com",
+      "latency_ms": 214.67,
+      "source": "doh:alidns",
+      "candidates": [
+        "16.15.212.27",
+        "54.231.233.226",
+        "52.217.198.114",
+        "16.15.212.205",
+        "16.15.230.149",
+        "54.231.129.130",
+        "52.216.33.10",
+        "52.216.218.42",
+        "16.15.253.207",
+        "54.231.169.122",
+        "52.217.69.128",
+        "54.231.170.50",
+        "52.217.119.98",
+        "16.15.229.31",
+        "52.216.34.218",
+        "16.15.255.170",
+        "16.182.107.226",
+        "52.216.28.160",
+        "52.217.225.82",
+        "54.231.228.250",
+        "16.15.157.71",
+        "16.15.212.43",
+        "16.15.238.78"
+      ]
+    },
+    {
+      "ip": "52.217.135.186",
+      "domain": "github-production-user-asset-6210df.s3.amazonaws.com",
+      "latency_ms": 228.84,
+      "source": "doh:dnspod",
+      "candidates": [
+        "52.217.142.34",
+        "16.15.246.140",
+        "16.15.228.95",
+        "52.216.209.2",
+        "16.15.255.170",
+        "16.15.157.12",
+        "16.15.254.26",
+        "16.182.68.194",
+        "16.15.161.169",
+        "52.217.135.186",
+        "16.15.214.77",
+        "16.15.212.119",
+        "52.216.244.56",
+        "16.15.255.140",
+        "16.15.246.221",
+        "16.182.100.98",
+        "16.15.229.179",
+        "52.217.198.26",
+        "54.231.161.162",
+        "52.217.113.42",
+        "16.15.238.99",
+        "16.15.230.251",
+        "52.216.49.170",
+        "16.15.255.69"
+      ]
+    },
+    {
+      "ip": "192.0.66.2",
+      "domain": "github.blog",
+      "latency_ms": 108.61,
+      "source": "doh:alidns",
+      "candidates": [
+        "192.0.66.2"
+      ]
+    },
+    {
+      "ip": "20.205.243.166",
+      "domain": "github.com",
+      "latency_ms": 92.5,
+      "source": "doh:alidns",
+      "candidates": [
+        "20.205.243.166"
+      ]
+    },
+    {
+      "ip": "140.82.112.18",
+      "domain": "github.community",
+      "latency_ms": 244.19,
+      "source": "doh:dnspod",
+      "candidates": [
+        "140.82.112.17",
+        "140.82.112.18",
+        "140.82.114.17"
+      ]
+    },
+    {
+      "ip": "20.43.185.14",
+      "domain": "github.dev",
+      "latency_ms": 81.06,
+      "source": "doh:dnspod",
+      "candidates": [
+        "20.99.227.183",
+        "20.43.185.14"
+      ]
+    },
+    {
+      "ip": "185.199.108.215",
+      "domain": "github.githubassets.com",
+      "latency_ms": 170.53,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.108.215",
+        "185.199.110.215",
+        "185.199.111.215",
+        "185.199.109.215"
+      ]
+    },
+    {
+      "ip": "202.160.130.118",
+      "domain": "github.global.ssl.fastly.net",
+      "latency_ms": null,
+      "source": "doh:alidns",
+      "candidates": [
+        "202.160.130.118",
+        "103.226.246.99"
+      ]
+    },
+    {
+      "ip": "185.199.111.153",
+      "domain": "github.io",
+      "latency_ms": 156.82,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.110.153",
+        "185.199.108.153",
+        "185.199.111.153",
+        "185.199.109.153"
+      ]
+    },
+    {
+      "ip": "185.199.108.133",
+      "domain": "github.map.fastly.net",
+      "latency_ms": 170.94,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.108.133",
+        "185.199.111.133",
+        "185.199.110.133",
+        "185.199.109.133"
+      ]
+    },
+    {
+      "ip": "140.82.113.29",
+      "domain": "githubapp.com",
+      "latency_ms": 249.72,
+      "source": "doh:alidns",
+      "candidates": [
+        "140.82.112.30",
+        "140.82.113.29",
+        "140.82.112.29",
+        "140.82.114.30",
+        "140.82.114.29",
+        "140.82.113.30"
+      ]
+    },
+    {
+      "ip": "185.199.111.153",
+      "domain": "githubstatus.com",
+      "latency_ms": 156.82,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.108.153",
+        "185.199.111.153",
+        "185.199.110.153",
+        "185.199.109.153"
+      ]
+    },
+    {
+      "ip": null,
+      "domain": "graphql.github.com",
+      "latency_ms": null,
+      "source": "none",
+      "candidates": []
+    },
+    {
+      "ip": "140.82.114.26",
+      "domain": "live.github.com",
+      "latency_ms": 261.49,
+      "source": "doh:dnspod",
+      "candidates": [
+        "140.82.114.25",
+        "140.82.114.26"
+      ]
+    },
+    {
+      "ip": "185.199.108.133",
+      "domain": "media.githubusercontent.com",
+      "latency_ms": 170.94,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.108.133",
+        "185.199.111.133",
+        "185.199.110.133",
+        "185.199.109.133"
+      ]
+    },
+    {
+      "ip": "140.82.114.22",
+      "domain": "models.github.ai",
+      "latency_ms": 237.18,
+      "source": "doh:alidns",
+      "candidates": [
+        "140.82.114.22",
+        "140.82.114.21",
+        "140.82.113.22"
+      ]
+    },
+    {
+      "ip": "20.205.243.164",
+      "domain": "npm.pkg.github.com",
+      "latency_ms": 110.7,
+      "source": "doh:alidns",
+      "candidates": [
+        "20.205.243.164"
+      ]
+    },
+    {
+      "ip": "185.199.108.133",
+      "domain": "objects.githubusercontent.com",
+      "latency_ms": 170.94,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.109.133",
+        "185.199.110.133",
+        "185.199.111.133",
+        "185.199.108.133"
+      ]
+    },
+    {
+      "ip": "140.82.114.22",
+      "domain": "origin-tracker.githubusercontent.com",
+      "latency_ms": 237.18,
+      "source": "dns:udp",
+      "candidates": [
+        "140.82.113.22",
+        "140.82.114.21",
+        "140.82.114.22"
+      ]
+    },
+    {
+      "ip": "13.107.42.16",
+      "domain": "pipelines.actions.githubusercontent.com",
+      "latency_ms": 50.64,
+      "source": "doh:alidns",
+      "candidates": [
+        "13.107.42.16"
+      ]
+    },
+    {
+      "ip": "185.199.109.154",
+      "domain": "pkg-containers.githubusercontent.com",
+      "latency_ms": 189.91,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.108.154",
+        "185.199.110.154",
+        "185.199.109.154",
+        "185.199.111.154"
+      ]
+    },
+    {
+      "ip": "20.205.243.164",
+      "domain": "pkg.github.com",
+      "latency_ms": 110.7,
+      "source": "doh:alidns",
+      "candidates": [
+        "20.205.243.164"
+      ]
+    },
+    {
+      "ip": "185.199.108.133",
+      "domain": "private-user-images.githubusercontent.com",
+      "latency_ms": 170.94,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.111.133",
+        "185.199.109.133",
+        "185.199.110.133",
+        "185.199.108.133"
+      ]
+    },
+    {
+      "ip": "4.249.131.160",
+      "domain": "proxy.enterprise.githubcopilot.com",
+      "latency_ms": 233.67,
+      "source": "doh:alidns",
+      "candidates": [
+        "4.249.131.160"
+      ]
+    },
+    {
+      "ip": null,
+      "domain": "proxy.githubcopilot.com",
+      "latency_ms": null,
+      "source": "none",
+      "candidates": []
+    },
+    {
+      "ip": "185.199.108.133",
+      "domain": "raw.github.com",
+      "latency_ms": 170.94,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.109.133",
+        "185.199.111.133",
+        "185.199.110.133",
+        "185.199.108.133"
+      ]
+    },
+    {
+      "ip": "185.199.108.133",
+      "domain": "raw.githubusercontent.com",
+      "latency_ms": 170.94,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.111.133",
+        "185.199.110.133",
+        "185.199.108.133",
+        "185.199.109.133"
+      ]
+    },
+    {
+      "ip": "104.21.60.54",
+      "domain": "rawcdn.githack.com",
+      "latency_ms": 263.38,
+      "source": "doh:dnspod",
+      "candidates": [
+        "128.121.243.235",
+        "172.67.192.117",
+        "104.21.60.54"
+      ]
+    },
+    {
+      "ip": "185.199.108.133",
+      "domain": "support.github.com",
+      "latency_ms": 170.94,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.108.133",
+        "185.199.110.133",
+        "185.199.109.133",
+        "185.199.111.133"
+      ]
+    },
+    {
+      "ip": null,
+      "domain": "tunnels.api.visualstudio.com",
+      "latency_ms": null,
+      "source": "none",
+      "candidates": []
+    },
+    {
+      "ip": "20.205.243.161",
+      "domain": "uploads.github.com",
+      "latency_ms": 89.97,
+      "source": "doh:alidns",
+      "candidates": [
+        "20.205.243.161"
+      ]
+    },
+    {
+      "ip": "185.199.108.133",
+      "domain": "user-images.githubusercontent.com",
+      "latency_ms": 170.94,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.111.133",
+        "185.199.109.133",
+        "185.199.110.133",
+        "185.199.108.133"
+      ]
+    },
+    {
+      "ip": "185.199.111.153",
+      "domain": "vscode-auth.github.com",
+      "latency_ms": 156.82,
+      "source": "doh:alidns",
+      "candidates": [
+        "185.199.111.153",
+        "185.199.109.153",
+        "185.199.110.153",
+        "185.199.108.153"
+      ]
+    },
+    {
+      "ip": "150.171.110.106",
+      "domain": "vscode.dev",
+      "latency_ms": 69.25,
+      "source": "dns:udp",
+      "candidates": [
+        "150.171.110.136",
+        "150.171.110.134",
+        "150.171.110.106"
+      ]
+    }
+  ]
+}

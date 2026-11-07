@@ -1,0 +1,1 @@
+"""github-host: merged GitHub hosts acceleration generator."""

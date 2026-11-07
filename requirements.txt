@@ -1,0 +1,3 @@
+requests>=2.31.0
+aiodns>=3.0.0; platform_system != "Windows" or python_version >= "3.8"
+pycares>=4.0.0; platform_system != "Windows" or python_version >= "3.8"
