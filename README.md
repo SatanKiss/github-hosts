@@ -2,7 +2,7 @@
 
 合并 [GitHub520](https://github.com/521xueweihan/GitHub520) 与 [ineo6/hosts](https://github.com/ineo6/hosts) 思路的 GitHub Hosts 加速项目，目标是**尽可能覆盖 GitHub 相关访问**，并支持通过 **URL 方式直接引入 hosts**。
 
-> 数据自动更新（GitHub Actions）。最近更新时间：**2026-11-10T04:16:19+08:00**
+> 数据自动更新（GitHub Actions）。最近更新时间：**2026-11-10T11:53:00+08:00**
 
 ## 一、通过 URL 引入（推荐）
 
@@ -35,9 +35,9 @@
 
 # unresolved                  actions.githubusercontent.com
 140.82.114.26                 alive.github.com
-172.182.252.137               api.github.com
+140.82.114.6                  api.github.com
 140.82.113.22                 api.githubcopilot.com
-140.82.113.22                 api.individual.githubcopilot.com
+140.82.113.21                 api.individual.githubcopilot.com
 # unresolved                  assets-cdn.github.com
 185.199.110.133               avatars.githubusercontent.com
 185.199.110.133               avatars0.githubusercontent.com
@@ -49,57 +49,57 @@
 185.199.110.133               camo.githubusercontent.com
 140.82.113.22                 central.github.com
 185.199.110.133               cloud.githubusercontent.com
-172.182.252.132               codeload.github.com
-140.82.113.22                 collector.github.com
-140.82.113.22                 collector.githubapp.com
-138.91.182.224                copilot-proxy.githubusercontent.com
+140.82.114.10                 codeload.github.com
+140.82.114.22                 collector.github.com
+140.82.113.21                 collector.githubapp.com
+20.85.130.105                 copilot-proxy.githubusercontent.com
 185.199.110.133               copilot.githubusercontent.com
 13.107.5.93                   default.exp-tas.com
 185.199.110.133               desktop.githubusercontent.com
 185.199.110.154               docs.github.com
-140.82.113.22                 education.github.com
+140.82.114.22                 education.github.com
 185.199.110.133               favicons.githubusercontent.com
-172.182.252.136               ghcr.io
-172.182.252.133               gist.github.com
-16.15.237.137                 github-cloud.s3.amazonaws.com
-16.15.237.7                   github-com.s3.amazonaws.com
-16.15.246.175                 github-production-release-asset-2e65be.s3.amazonaws.com
-16.15.237.124                 github-production-repository-file-5c1aeb.s3.amazonaws.com
-16.15.238.125                 github-production-user-asset-6210df.s3.amazonaws.com
+140.82.113.34                 ghcr.io
+140.82.114.3                  gist.github.com
+16.15.213.123                 github-cloud.s3.amazonaws.com
+16.15.213.10                  github-com.s3.amazonaws.com
+16.15.214.36                  github-production-release-asset-2e65be.s3.amazonaws.com
+16.15.245.39                  github-production-repository-file-5c1aeb.s3.amazonaws.com
+16.15.191.117                 github-production-user-asset-6210df.s3.amazonaws.com
 192.0.66.2                    github.blog
-172.182.252.133               github.com
+140.82.114.4                  github.com
 140.82.114.18                 github.community
-20.99.227.183                 github.dev
+52.224.38.193                 github.dev
 185.199.110.215               github.githubassets.com
-151.101.129.194               github.global.ssl.fastly.net
+151.101.65.194                github.global.ssl.fastly.net
 185.199.110.153               github.io
 185.199.110.133               github.map.fastly.net
 140.82.113.29                 githubapp.com
 185.199.110.153               githubstatus.com
 # unresolved                  graphql.github.com
-140.82.112.26                 live.github.com
+140.82.114.25                 live.github.com
 185.199.110.133               media.githubusercontent.com
-140.82.113.22                 models.github.ai
-172.182.252.136               npm.pkg.github.com
+140.82.113.21                 models.github.ai
+140.82.113.33                 npm.pkg.github.com
 185.199.110.133               objects.githubusercontent.com
-140.82.113.22                 origin-tracker.githubusercontent.com
-13.107.42.16                  pipelines.actions.githubusercontent.com
+140.82.113.21                 origin-tracker.githubusercontent.com
+13.107.43.16                  pipelines.actions.githubusercontent.com
 185.199.110.154               pkg-containers.githubusercontent.com
-172.182.252.136               pkg.github.com
+140.82.112.34                 pkg.github.com
 185.199.110.133               private-user-images.githubusercontent.com
-138.91.182.224                proxy.enterprise.githubcopilot.com
+20.85.130.105                 proxy.enterprise.githubcopilot.com
 # unresolved                  proxy.githubcopilot.com
 185.199.110.133               raw.github.com
 185.199.110.133               raw.githubusercontent.com
-172.67.192.117                rawcdn.githack.com
+104.21.60.54                  rawcdn.githack.com
 185.199.110.133               support.github.com
 # unresolved                  tunnels.api.visualstudio.com
-172.182.252.130               uploads.github.com
+140.82.113.14                 uploads.github.com
 185.199.110.133               user-images.githubusercontent.com
 185.199.110.153               vscode-auth.github.com
-150.171.109.153               vscode.dev
+150.171.109.72                vscode.dev
 
-# Update time: 2026-11-10T04:16:19+08:00
+# Update time: 2026-11-10T11:53:00+08:00
 # Update url: https://raw.githubusercontent.com/SatanKiss/github-hosts/main/hosts
 # Star: https://github.com/SatanKiss/github-hosts
 # GitHub Host End
