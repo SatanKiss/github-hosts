@@ -1,72 +1,72 @@
 # GitHub Host Start
 
 # unresolved                  actions.githubusercontent.com
-140.82.114.25                 alive.github.com
-140.82.114.5                  api.github.com
-140.82.114.22                 api.githubcopilot.com
+140.82.113.25                 alive.github.com
+20.29.134.17                  api.github.com
+140.82.113.22                 api.githubcopilot.com
 140.82.114.22                 api.individual.githubcopilot.com
 # unresolved                  assets-cdn.github.com
-185.199.110.133               avatars.githubusercontent.com
-185.199.110.133               avatars0.githubusercontent.com
-185.199.110.133               avatars1.githubusercontent.com
-185.199.110.133               avatars2.githubusercontent.com
-185.199.110.133               avatars3.githubusercontent.com
-185.199.110.133               avatars4.githubusercontent.com
-185.199.110.133               avatars5.githubusercontent.com
-185.199.110.133               camo.githubusercontent.com
+185.199.109.133               avatars.githubusercontent.com
+185.199.109.133               avatars0.githubusercontent.com
+185.199.109.133               avatars1.githubusercontent.com
+185.199.109.133               avatars2.githubusercontent.com
+185.199.109.133               avatars3.githubusercontent.com
+185.199.109.133               avatars4.githubusercontent.com
+185.199.109.133               avatars5.githubusercontent.com
+185.199.109.133               camo.githubusercontent.com
 140.82.114.22                 central.github.com
-185.199.110.133               cloud.githubusercontent.com
-140.82.113.10                 codeload.github.com
-140.82.114.22                 collector.github.com
-140.82.112.21                 collector.githubapp.com
-4.249.131.160                 copilot-proxy.githubusercontent.com
-185.199.110.133               copilot.githubusercontent.com
+185.199.109.133               cloud.githubusercontent.com
+20.29.134.24                  codeload.github.com
+140.82.114.21                 collector.github.com
+140.82.114.21                 collector.githubapp.com
+138.91.182.224                copilot-proxy.githubusercontent.com
+185.199.109.133               copilot.githubusercontent.com
 13.107.5.93                   default.exp-tas.com
-185.199.110.133               desktop.githubusercontent.com
-185.199.110.154               docs.github.com
-140.82.112.21                 education.github.com
-185.199.110.133               favicons.githubusercontent.com
-140.82.114.33                 ghcr.io
-140.82.113.3                  gist.github.com
-52.216.243.16                 github-cloud.s3.amazonaws.com
-16.182.102.242                github-com.s3.amazonaws.com
-52.216.37.250                 github-production-release-asset-2e65be.s3.amazonaws.com
-16.15.212.12                  github-production-repository-file-5c1aeb.s3.amazonaws.com
-16.15.183.52                  github-production-user-asset-6210df.s3.amazonaws.com
+185.199.109.133               desktop.githubusercontent.com
+185.199.108.154               docs.github.com
+140.82.113.22                 education.github.com
+185.199.109.133               favicons.githubusercontent.com
+20.29.134.18                  ghcr.io
+4.149.173.80                  gist.github.com
+16.15.213.26                  github-cloud.s3.amazonaws.com
+16.15.162.205                 github-com.s3.amazonaws.com
+16.15.162.205                 github-production-release-asset-2e65be.s3.amazonaws.com
+16.15.212.174                 github-production-repository-file-5c1aeb.s3.amazonaws.com
+52.217.66.216                 github-production-user-asset-6210df.s3.amazonaws.com
 192.0.66.2                    github.blog
-140.82.114.3                  github.com
+48.200.82.112                 github.com
 140.82.113.17                 github.community
-52.224.38.193                 github.dev
-185.199.110.215               github.githubassets.com
-151.101.1.194                 github.global.ssl.fastly.net
-185.199.110.153               github.io
-185.199.110.133               github.map.fastly.net
-140.82.112.30                 githubapp.com
-185.199.110.153               githubstatus.com
+20.99.227.183                 github.dev
+185.199.109.215               github.githubassets.com
+151.101.129.194               github.global.ssl.fastly.net
+185.199.109.153               github.io
+185.199.109.133               github.map.fastly.net
+140.82.114.30                 githubapp.com
+185.199.109.153               githubstatus.com
 # unresolved                  graphql.github.com
-140.82.114.25                 live.github.com
-185.199.110.133               media.githubusercontent.com
-140.82.114.22                 models.github.ai
-140.82.114.34                 npm.pkg.github.com
-185.199.110.133               objects.githubusercontent.com
-140.82.114.22                 origin-tracker.githubusercontent.com
+140.82.112.25                 live.github.com
+185.199.109.133               media.githubusercontent.com
+140.82.114.21                 models.github.ai
+20.29.134.18                  npm.pkg.github.com
+185.199.109.133               objects.githubusercontent.com
+140.82.113.22                 origin-tracker.githubusercontent.com
 13.107.42.16                  pipelines.actions.githubusercontent.com
-185.199.110.154               pkg-containers.githubusercontent.com
-140.82.113.34                 pkg.github.com
-185.199.110.133               private-user-images.githubusercontent.com
-4.249.131.160                 proxy.enterprise.githubcopilot.com
+185.199.108.154               pkg-containers.githubusercontent.com
+20.29.134.18                  pkg.github.com
+185.199.109.133               private-user-images.githubusercontent.com
+138.91.182.224                proxy.enterprise.githubcopilot.com
 # unresolved                  proxy.githubcopilot.com
-185.199.110.133               raw.github.com
-185.199.110.133               raw.githubusercontent.com
-104.21.60.54                  rawcdn.githack.com
-185.199.110.133               support.github.com
+185.199.109.133               raw.github.com
+185.199.109.133               raw.githubusercontent.com
+172.67.192.117                rawcdn.githack.com
+185.199.109.133               support.github.com
 # unresolved                  tunnels.api.visualstudio.com
-140.82.112.13                 uploads.github.com
-185.199.110.133               user-images.githubusercontent.com
-185.199.110.153               vscode-auth.github.com
-150.171.110.212               vscode.dev
+20.29.134.22                  uploads.github.com
+185.199.109.133               user-images.githubusercontent.com
+185.199.109.153               vscode-auth.github.com
+150.171.110.150               vscode.dev
 
-# Update time: 2026-11-12T07:47:51+08:00
+# Update time: 2026-11-12T12:38:23+08:00
 # Update url: https://raw.githubusercontent.com/SatanKiss/github-hosts/main/hosts
 # Star: https://github.com/SatanKiss/github-hosts
 # GitHub Host End
